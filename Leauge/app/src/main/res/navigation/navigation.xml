@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/home_dest">
+
+    <fragment
+        android:id="@+id/home_dest"
+        android:name="com.example.leauge.view.TeamsFragment"
+        android:label="fragment_teams"
+        tools:layout="@layout/fragment_teams" />
+    <fragment
+        android:id="@+id/fixture_dest"
+        android:name="com.example.leauge.view.FixtureFragment"
+        android:label="fragment_fixture"
+        tools:layout="@layout/fragment_fixture" >
+    </fragment>
+</navigation>
