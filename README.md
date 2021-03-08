@@ -8,7 +8,7 @@
 - Swipeable UI was created with RecyclerView.
 - Dark Mode option has been provided for the user.
 
-###Project task list
+# Project task list
 
 - [x] MVVM architecture
 - [x] Room DB
