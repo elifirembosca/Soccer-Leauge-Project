@@ -7,6 +7,7 @@
 - With Room DB, teams could be viewed without an internet connection.
 - Swipeable UI was created with RecyclerView.
 - Dark Mode option has been provided for the user.
+- Uploaded working APK file into releases.
 
 # Project task list
 
